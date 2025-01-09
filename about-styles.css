@@ -1,0 +1,307 @@
+/* GENERAL STYLING */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* HEADER */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1a2d40;
+    padding: 10px 20px;
+  }
+  
+  .navbar .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar .logo img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+  }
+  
+  .navbar .menu {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar .menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar .menu a:hover,
+  .navbar .menu a.active {
+    color: #00b8ff;
+    text-decoration: underline;
+  }
+  
+  .navbar .menu a {
+    text-transform: capitalize;
+  }
+  
+/* About Section */
+.about-section {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.about p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.mission {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.mission h1 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+.mission p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Who We Are Section */
+.who-we-are h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.who-we-are ul li {
+    margin-bottom: 20px;
+}
+
+.who-we-are ul li p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.timeline {
+    display: flex; /* Arrange items horizontally */
+    flex-wrap: wrap; /* Wrap to the next row if necessary */
+    gap: 30px; /* Add spacing between items */
+    justify-content: space-between; /* Distribute items evenly across the row */
+    align-items: flex-start; /* Align items to the top */
+}
+
+.timeline h2, 
+.timeline h3, 
+.timeline p {
+    margin: 5px 0; /* Add consistent spacing between title, date, and description */
+}
+
+/* Optional: Style for individual timeline events */
+.timeline-event {
+    flex: 1; /* Allow items to take equal space */
+    min-width: 250px; /* Prevent items from becoming too small */
+    background-color: #f8f9fa; /* Light background for distinction */
+    border: 1px solid #ddd; /* Optional border for each timeline item */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Padding inside each event */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+}
+
+/* Meet Our Council */
+.council h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.team div {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.team img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.team h4 {
+    font-size: 1rem;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.team p {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.4;
+}
+
+/* Why Join Us */
+.why-us {
+    text-align: center; /* Center the heading */
+    padding: 20px;
+}
+
+.why-us h1 {
+    font-size: 2.5rem; /* Adjusted heading size */
+    margin-bottom: 20px;
+    color: #333; /* Darker heading color */
+}
+
+.why-us ul {
+    display: flex; /* Arrange items horizontally */
+    flex-wrap: wrap; /* Wrap items to the next row if necessary */
+    justify-content: center; /* Center the items */
+    gap: 30px; /* Add space between items */
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+.why-us li {
+    flex: 1; /* Make each item take up equal space */
+    min-width: 250px; /* Prevent items from becoming too small */
+    max-width: 300px; /* Optional: Limit maximum width of each item */
+    background-color: #f8f9fa; /* Light background for distinction */
+    border: 1px solid #ddd; /* Optional border for each list item */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Padding inside each item */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+    text-align: left; /* Align text to the left for readability */
+}
+
+.why-us li p {
+    margin: 0; /* Remove default margins for <p> */
+    font-size: 1rem; /* Adjust text size */
+    line-height: 1.5; /* Improve text readability */
+    color: #555; /* Add subtle text color for readability */
+}
+
+/* Optional: Make the headings in each item bold */
+.why-us li p b {
+    font-size: 1.1rem; /* Slightly larger for emphasis */
+    color: #2a4d69; /* Make bold headings stand out */
+}
+
+/* Responsive Design: Stack items vertically on smaller screens */
+@media (max-width: 768px) {
+    .why-us ul {
+        flex-direction: column; /* Stack items vertically */
+        gap: 20px; /* Adjust spacing for smaller screens */
+    }
+}
+
+/* FOOTER */
+.footer {
+    background-color: #e0e6ed;
+    color: #1a2d40;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-top: 1px solid #ccc;
+}
+
+.footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contact-info {
+    text-align: left;
+}
+
+.footer-logo {
+    height: 60px;
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.social-icons a img {
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+    transition: transform 0.3s;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.2);
+}
+
+.copyright {
+    text-align: center;
+    flex: 1;
+    font-size: 14px;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+    .team {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer-content {
+        text-align: center;
+    }
+
+    .team img {
+        width: 100px;
+        height: 100px;
+    }
+}
