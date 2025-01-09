@@ -6,7 +6,7 @@ body {
     color: #333;
 }
 
-/* HEADER */
+/* HEADER
 .navbar {
     display: flex;
     align-items: center;
@@ -46,8 +46,7 @@ body {
   
   .navbar .menu a {
     text-transform: capitalize;
-  }
-  
+  }*/
 /* About Section */
 .about-section {
     max-width: 1200px;
@@ -90,6 +89,15 @@ body {
 }
 
 /* Who We Are Section */
+.who-we-are {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #c4c4c450;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Darker shadow for elevation */
+}
+
 .who-we-are h1 {
     font-size: 2rem;
     margin-bottom: 20px;
@@ -124,11 +132,11 @@ body {
 .timeline-event {
     flex: 1; /* Allow items to take equal space */
     min-width: 250px; /* Prevent items from becoming too small */
-    background-color: #f8f9fa; /* Light background for distinction */
-    border: 1px solid #ddd; /* Optional border for each timeline item */
+    min-height: auto;
+    background-color: #0259b150; 
     border-radius: 8px; /* Rounded corners */
     padding: 15px; /* Padding inside each event */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for elevation */
 }
 
 /* Meet Our Council */
@@ -147,18 +155,19 @@ body {
 }
 
 .team div {
-    background: #fff;
+    background: #c4c4c450;
     border: 1px solid #ddd;
     border-radius: 10px;
     width: 200px;
     text-align: center;
     padding: 15px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .team img {
     width: 100%;
-    border-radius: 50%;
+    border-radius: 20%;
+    border: 1px solid #fff;
     margin-bottom: 10px;
 }
 
@@ -205,11 +214,11 @@ body {
     flex: 1; /* Make each item take up equal space */
     min-width: 250px; /* Prevent items from becoming too small */
     max-width: 300px; /* Optional: Limit maximum width of each item */
-    background-color: #f8f9fa; /* Light background for distinction */
+    background-color: #0259b150; /* Light background for distinction */
     border: 1px solid #ddd; /* Optional border for each list item */
     border-radius: 8px; /* Rounded corners */
     padding: 15px; /* Padding inside each item */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: left; /* Align text to the left for readability */
 }
 
@@ -231,77 +240,5 @@ body {
     .why-us ul {
         flex-direction: column; /* Stack items vertically */
         gap: 20px; /* Adjust spacing for smaller screens */
-    }
-}
-
-/* FOOTER */
-.footer {
-    background-color: #e0e6ed;
-    color: #1a2d40;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    border-top: 1px solid #ccc;
-}
-
-.footer-content {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.contact-info {
-    text-align: left;
-}
-
-.footer-logo {
-    height: 60px;
-    width: 60px;
-    margin-bottom: 10px;
-}
-
-.social-icons a img {
-    width: 24px;
-    height: 24px;
-    margin: 0 5px;
-    transition: transform 0.3s;
-}
-
-.social-icons a img:hover {
-    transform: scale(1.2);
-}
-
-.copyright {
-    text-align: center;
-    flex: 1;
-    font-size: 14px;
-}
-
-/* RESPONSIVE DESIGN */
-@media (max-width: 768px) {
-    .team {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .footer-content {
-        flex-direction: column;
-        text-align: center;
-    }
-}
-
-@media (max-width: 600px) {
-    .footer-content {
-        text-align: center;
-    }
-
-    .team img {
-        width: 100px;
-        height: 100px;
     }
 }
