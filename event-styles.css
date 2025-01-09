@@ -44,7 +44,7 @@ a:hover {
 /* Header Section */
 header {
   text-align: center;
-  background-image: url('header.jpg');
+  background-image: url('assets/header.jpg');
   background-size: cover;
   background-position: center;
   color: white;
