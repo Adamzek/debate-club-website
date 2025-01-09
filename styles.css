@@ -137,9 +137,13 @@ body {
 }
 
 .qa-section p {
+    background-color: #0259b150;
     font-size: 1.3rem;
     margin-bottom: 15px;
     line-height: 1.6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 15px;
 }
 
 /* Sidebar Section */
@@ -153,9 +157,9 @@ body {
 .announcements,
 .events {
     background-color: #1A2E40;
-    padding: 15px;
+    padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
 
 .announcements h2,
@@ -165,13 +169,27 @@ body {
     margin-bottom: 10px;
 }
 
+.announcements p{
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #1a2d40;
+    font-weight: bold;
+}
+
+
 .announcement-card,
 .event-card {
     background-color: #F5F5F5;
     padding: 10px;
     border-radius: 5px;
     text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Darker shadow for elevation */
+    transition: transform 0.3s;
 }
+.announcement-card:hover,.event-card:hover {
+    transform: scale(1.05);
+}
+
 
 .announcement-card img {
     width: 100%;
@@ -180,12 +198,13 @@ body {
 }
 
 .event-card h3 {
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin: 10px 0;
     color: #1a2d40;
 }
 
 .event-card p {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     margin: 5px 0;
+    font-weight: bold;
 }
