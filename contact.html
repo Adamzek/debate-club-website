@@ -3,80 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IIUM English Debate Club</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f8f8;
-            width: auto;
-            display: flex;
-            flex-direction: column;
-        }
-        .contact-section {
-    
-            padding: 20px;
-            background-color: white;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            margin: 20px auto;
-            width: 300;
-            border-radius: 8px;
-
-        }
-        .contact-section h2 {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .cta-button {
-            display: block;
-            background-color: #00bcd4;
-            color: white;
-            text-align: center;
-            padding: 10px 20px;
-            margin: 20px auto;
-            text-decoration: none;
-            border-radius: 5px;
-            width: 200px;
-        }
-        .cta-button:hover {
-            background-color: #008ba3;
-        }
-        .training-sessions, .faq, .social-media, .contact-form {
-            margin-bottom: 20px;
-        }
-        ul {
-            list-style-type: disc;
-            margin-left: 20px;
-        }
-        .faq h3, .training-sessions h3, .social-media h3 {
-            font-size: 20px;
-            margin-bottom: 10px;
-        }
-        .social-icons a {
-            text-decoration: none;
-            margin-right: 15px;
-        }
-        .contact-form input, .contact-form textarea {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-        .contact-form button {
-            background-color: #00bcd4;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        .contact-form button:hover {
-            background-color: #008ba3;
-        }
-    </style>
+    <link rel="stylesheet" href="contact-style.css"
 </head>
 <body>
     <header>
@@ -84,9 +13,10 @@
     </header>
 
     <div class="contact-section">
-        <h2>Contact & Information</h2>
+        <div class="contact">
+            <h1>Contact & Information</h1>
         <p>Got questions or want to join? Reach out via our form, social media, or check the FAQ for quick answers.</p>
-    </div>
+        </div>
 
         <div class="join-com">
             <h2><strong>Join Our Debate Community !</strong></h2>
@@ -94,6 +24,7 @@
             <a class="cta-button" href="#">BECOME A MEMBER</a>
             <p>get access to weekly training, national competitions, and a network of passionate debaters</p>
         </div>
+
         <div class="training-container">
             <div class="training-left">
                 <h2>Training Sessions</h2>
@@ -112,23 +43,36 @@
 
         <div class="faq">
             <h3>Frequently Asked Questions (FAQ)</h3>
-            <ul>
-                <li><strong>How can I join the Debate Club?</strong> Simply fill out the registration form linked above, and our team will reach out to you.</li>
-                <li><strong>Do I need prior experience in debating to join?</strong> No, we welcome everyone! Attend beginner sessions on Mondays and open sessions on other days.</li>
-                <li><strong>Can I participate in competitions right away?</strong> New members are encouraged to attend training sessions first. After some practice, you can participate.</li>
-                <li><strong>How do I know about upcoming training sessions?</strong> Updates will be shared regularly in our WhatsApp group.</li>
-            </ul>
+                <div class="question-container">
+                    <div class="question">
+                        <h4><strong>How can I join the Debate Club?</strong></h4>
+                        <li>Simply fill out the registration form linked above, and our team will reach out to you.</li>
+                    </div>
+                    <div class="question">
+                        <h4><strong>Do I need prior experience in debating to join?</strong></h4> 
+                        <li>No, we welcome everyone! Attend beginner sessions on Mondays and open sessions on other days.</li>
+                    </div>
+                    <div class="question">
+                        <h4><strong>Can I participate in competitions right away?</strong></h4> 
+                        <li>New members are encouraged to attend training sessions first. After some practice, you can participate.</li>
+                    </div>
+                    <div class="question">
+                        <h4><strong>How do I know about upcoming training sessions?</strong> </h4>
+                        <li>will be shared regularly in our WhatsApp group.</li>
+                    </div>
+            
+                </div>
         </div>
 
         <div class="social-media">
             <h3>Stay Connected with Us!</h3>
             <div class="social-icons">
-                <a href="#">Twitter: @iiumdebates</a>
-                <a href="#">Facebook: @IIUMDebates</a>
-                <a href="#">Instagram: @iiumdebates</a>
-                <a href="#">TikTok: @officialEDCIIUM</a>
-                <a href="#">WhatsApp Groupchat</a>
-                <a href="mailto:edc@iium.edu.my">Email: edc@iium.edu.my</a>
+            <a href="#"><img src="assets/facebook-logo.png" alt="Facebook"></a>
+            <a href="#"><img src="assets/discord-logo.png" alt="Game"></a>
+            <a href="#"><img src="assets/tiktok-logo.png" alt="TikTok"></a>
+            <a href="#"><img src="assets/instagram-logo.png" alt="Instagram"></a>
+            <a href="#"><img src="assets/whatsapp-logo.png" alt="WhatsApp"></a>
+            <a href="mailto:edc@iium.edu.my"><img src="assets/email-logo.png" alt="email"><a>edc@iium.edu.my</a>
             </div>
         </div>
 
@@ -141,6 +85,8 @@
                 <button type="submit">Submit</button>
             </form>
         </div>
+    </div>
+
     <script src="header.js"></script>
     <script src="footer.js"></script>
 </body>
