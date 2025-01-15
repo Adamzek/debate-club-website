@@ -1,0 +1,201 @@
+/*General Styling*/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.contact-section {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    font-size: 1rem;
+    color: #555;
+}
+/* Join section*/
+.join-com {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #c4c4c450;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.join-com h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+/* Container Styling */
+/* use container to split left and right */
+.training-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #c4c4c450;
+    border-radius: 10px;
+ 
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .training-container {
+        flex-direction: column;
+    }
+}
+
+/* Left Section */
+.training-left {
+    flex: 1;
+}
+
+.training-left h2 {
+    font-size: 1.5em;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.training-left ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.training-left li {
+    margin-bottom: 8px;
+}
+
+/* Right Section */
+.training-right {
+    flex: 1;
+}
+
+.training-right ul {
+    list-style: disc;
+    padding-top: 50px;
+    padding-right: 20px;
+
+}
+
+.training-right li {
+    margin-bottom: 10px;
+}
+
+.training-right li strong {
+    color: #e74c3c;
+}
+
+.faq {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #c4c4c450;
+    border-radius: 10px;
+}
+
+.faq h3{
+    text-align: center;
+}
+
+.question-container{
+    display: flex;
+    gap: 10px;
+}
+
+.question h4,
+.question li {
+    margin: 5px 0;
+}
+
+.question {
+    flex: 1;
+    padding: 15px;
+}
+
+.social-icons a img {
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+
+}
+
+.icon-circle {
+    color: white;
+    border-radius: 50%;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.icon-circle img {
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+    height: auto;
+}
+
+/* become a member button */
+.cta-button {
+    display: block;
+    background-color: #00bcd4;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 10px auto;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 200px;
+}
+/*button hover*/
+.cta-button:hover {
+    background-color: #008ba3;
+}
+/*contact form*/
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    padding-left: 2px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+/*contact form button*/
+.contact-form button {
+    background-color: #00bcd4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*contact form button hover*/
+.contact-form button:hover {
+    background-color: #008ba3;
+}
+
