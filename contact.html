@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IIUM English Debate Club</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="styles.css">
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -31,8 +32,9 @@
         }
         .cta-button {
             display: block;
-            background-color: #00bcd4;
-            color: white;
+            background-color: #0259b194;
+            color: #022a52;
+            font-weight: bold;
             text-align: center;
             padding: 10px 20px;
             margin: 20px auto;
@@ -41,7 +43,7 @@
             width: 200px;
         }
         .cta-button:hover {
-            background-color: #008ba3;
+            background-color: #014991a6;
         }
         .training-sessions, .faq, .social-media, .contact-form {
             margin-bottom: 20px;
@@ -66,17 +68,21 @@
             border-radius: 5px;
         }
         .contact-form button {
-            background-color: #00bcd4;
-            color: white;
+            background-color: #0259b194;
+            color: #022a52;
+            font-weight: bold;
             padding: 10px 20px;
             border: none;
             border-radius: 5px;
             cursor: pointer;
         }
         .contact-form button:hover {
-            background-color: #008ba3;
+            background-color: #014991a6;
         }
     </style>
+
+    <link rel="stylesheet" href="contact-style.css"
+     307a4edbb95929c34efa4231cbba0a7642aafe06
 </head>
 <body>
     <header>
@@ -84,42 +90,69 @@
     </header>
 
     <div class="contact-section">
-        <h2>Contact & Information</h2>
+        <div class="contact">
+            <h1>Contact & Information</h1>
         <p>Got questions or want to join? Reach out via our form, social media, or check the FAQ for quick answers.</p>
+        </div>
 
-        <a class="cta-button" href="#">BECOME A MEMBER</a>
+        <div class="join-com">
+            <h2><strong>Join Our Debate Community !</strong></h2>
+            <p>Expand your skills, participate in championships and become a part of our community</p>
+            <a class="cta-button" href="#">BECOME A MEMBER</a>
+            <p>get access to weekly training, national competitions, and a network of passionate debaters</p>
+        </div>
 
-        <div class="training-sessions">
-            <h3>Training Sessions</h3>
-            <ul>
-                <li>Beginners: Every Monday, 8:00 PM - 10:00 PM</li>
-                <li>Open Sessions: Every Tuesday & Thursday, 8:00 PM - 10:00 PM</li>
-                <li>Location: Moot Court, AIKOL Building</li>
-            </ul>
-            <p><strong>Note:</strong> All session timings are subject to change. Updates will be regularly shared in the WhatsApp group.</p>
+        <div class="training-container">
+            <div class="training-left">
+                <h2>Training Sessions</h2>
+                <ul>
+                    <li>Beginners: Every Monday, 8:00 PM - 10:00 PM</li>
+                    <li>Open Sessions: Every Tuesday & Thursday, 8:00 PM - 10:00 PM</li>
+                </ul>
+            </div>
+            <div class="training-right">
+                <ul>
+                    <li>Location: Moot Court, AIKOL Building</li>
+                    <li><strong>Note:</strong> All session timings are subject to change. Updates will be regularly shared in the WhatsApp group.</li>
+                </ul>
+            </div>
         </div>
 
         <div class="faq">
             <h3>Frequently Asked Questions (FAQ)</h3>
-            <ul>
-                <li><strong>How can I join the Debate Club?</strong> Simply fill out the registration form linked above, and our team will reach out to you.</li>
-                <li><strong>Do I need prior experience in debating to join?</strong> No, we welcome everyone! Attend beginner sessions on Mondays and open sessions on other days.</li>
-                <li><strong>Can I participate in competitions right away?</strong> New members are encouraged to attend training sessions first. After some practice, you can participate.</li>
-                <li><strong>How do I know about upcoming training sessions?</strong> Updates will be shared regularly in our WhatsApp group.</li>
-            </ul>
+                <div class="question-container">
+                    <div class="question">
+                        <h4><strong>How can I join the Debate Club?</strong></h4>
+                        <li>Simply fill out the registration form linked above, and our team will reach out to you.</li>
+                    </div>
+                    <div class="question">
+                        <h4><strong>Do I need prior experience in debating to join?</strong></h4> 
+                        <li>No, we welcome everyone! Attend beginner sessions on Mondays and open sessions on other days.</li>
+                    </div>
+                    <div class="question">
+                        <h4><strong>Can I participate in competitions right away?</strong></h4> 
+                        <li>New members are encouraged to attend training sessions first. After some practice, you can participate.</li>
+                    </div>
+                    <div class="question">
+                        <h4><strong>How do I know about upcoming training sessions?</strong> </h4>
+                        <li>will be shared regularly in our WhatsApp group.</li>
+                    </div>
+            
+                </div>
         </div>
 
-        <div class="social-media">
+        <!-- <div class="social-media">
             <h3>Stay Connected with Us!</h3>
             <div class="social-icons">
-                <a href="#">Twitter: @iiumdebates</a>
-                <a href="#">Facebook: @IIUMDebates</a>
-                <a href="#">Instagram: @iiumdebates</a>
-                <a href="#">TikTok: @officialEDCIIUM</a>
-                <a href="#">WhatsApp Groupchat</a>
-                <a href="mailto:edc@iium.edu.my">Email: edc@iium.edu.my</a>
+            <a href="#"><img src="assets/facebook-logo.png" alt="Facebook" onclick="window.open('https://www.facebook.com/iiumdebates')"></a>
+            <a href="#"><img src="assets/X-Logo.png" alt="Twitter" onclick="window.open('https://x.com/iiumdebates')"></a>
+            <a href="#"><img src="assets/discord-logo.png" alt="Game"></a>
+            <a href="#"><img src="assets/tiktok-logo.png" alt="TikTok" ></a>
+            <a href="#"><img src="assets/instagram-logo.png" alt="Instagram" onclick="window.open('https://www.instagram.com/iiumdebates/?hl=en')"></a>
+            <a href="#"><img src="assets/whatsapp-logo.png" alt="WhatsApp"></a>
+            <a href="mailto:edc@iium.edu.my"><img src="assets/email-logo.png" alt="email"></a>
             </div>
-        </div>
+        </div> -->
 
         <div class="contact-form">
             <h3>Get in Touch</h3>
