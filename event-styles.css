@@ -48,7 +48,7 @@ header {
   background-size: cover;
   background-position: center;
   color: white;
-  padding: 100px 20px;
+  padding: 20px 20px;
 }
 
 header h1 {
@@ -97,13 +97,18 @@ section h2 {
   margin-bottom: 15px;
 }
 
-.gallery-image img {
+/* Gallery Section Styling */
+.gallery img {
   width: 100%;
-  max-width: 800px;
+  max-width: 600px; /* Adjust as needed */
   height: auto;
-  display: block;
-  margin: 0 auto;
   border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.gallery img:hover {
+  transform: scale(1.1); /* Enlarge the image slightly on hover */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
 }
 
 /* Flexbox for Layout */
