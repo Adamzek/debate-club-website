@@ -119,46 +119,34 @@ body {
 .faq h3{
     text-align: center;
 }
-
+/* question container */
 .question-container{
     display: flex;
     gap: 10px;
 }
-
+/* distance between question and answers */
 .question h4,
 .question li {
     margin: 5px 0;
 }
-
+/* allow each question to be equal arrangement */
 .question {
     flex: 1;
     padding: 15px;
 }
-
+/* social media */
+.social-media {
+    text-align: center;
+}
+/* sizing the icons */
 .social-icons a img {
-    width: 24px;
-    height: 24px;
+    width: 55px;
+    height: 55px;
     margin: 0 5px;
 
 }
 
-.icon-circle {
-    color: white;
-    border-radius: 50%;
-    flex: 1;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    margin-bottom: 10px;
-    cursor: pointer;
-}
 
-.icon-circle img {
-    width: 24px;
-    height: 24px;
-    margin: 0 5px;
-    height: auto;
-}
 
 /* become a member button */
 .cta-button {
